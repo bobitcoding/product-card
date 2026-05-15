@@ -1,1 +1,1 @@
-# product-card
+Описание проекта product-card для ДЗ №1
