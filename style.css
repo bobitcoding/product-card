@@ -1,0 +1,62 @@
+* {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+} 
+
+.h1-title {
+  font-size: 70px;
+  line-height: 78px;
+  text-align: center;
+}
+
+.products-list {
+  list-style: none;
+}
+
+.product-card {
+  background-color: #F7F7FA;
+  width: 340px;
+  padding: 25px;
+  margin: 45px;
+}
+
+.text-2nd {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 24px;
+  color: #A5A3B9;
+}
+
+.h2-product-name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.compound {
+  padding-left: 15px;
+}
+
+.class-for-footer {
+  padding-top: 25px;
+}
+
+.price-txt {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.price-value {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right; /*не помогает, пока не разобрался*/
+  padding-left: 150px; /*поэтому временно применил это*/
+}
