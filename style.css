@@ -1,13 +1,13 @@
 * {
-  font-family: Arial, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  color: #515076;
   box-sizing: border-box;
 }
 
 body {
   background-color: white;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
 } 
 
 .h1-title {
@@ -34,7 +34,7 @@ body {
   color: #A5A3B9;
 }
 
-.h2-product-name {
+.product-name {
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
@@ -44,7 +44,7 @@ body {
   padding-left: 15px;
 }
 
-.class-for-footer {
+.class-for-div-price {
   padding-top: 25px;
 }
 
@@ -57,6 +57,5 @@ body {
 .price-value {
   font-size: 20px;
   line-height: 24px;
-  text-align: right; /*не помогает, пока не разобрался*/
-  padding-left: 150px; /*поэтому временно применил это*/
+  padding-left: 150px; /*временно - пометка для себя*/
 }
