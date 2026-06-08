@@ -10,7 +10,7 @@ body {
   color: #515076;
 } 
 
-.h1-title {
+.title {
   font-size: 70px;
   line-height: 78px;
   text-align: center;
@@ -36,7 +36,6 @@ body {
 
 .product-name {
   font-size: 20px;
-  font-weight: 700;
   line-height: 27px;
 }
 
@@ -44,17 +43,16 @@ body {
   padding-left: 15px;
 }
 
-.class-for-div-price {
+.price-block {
   padding-top: 25px;
 }
 
-.price-txt {
+.price-block b {
   font-size: 20px;
-  font-weight: 700;
   line-height: 24px;
 }
 
-.price-value {
+.price-block span {
   font-size: 20px;
   line-height: 24px;
   padding-left: 150px; /*временно - пометка для себя*/
