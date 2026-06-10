@@ -3,8 +3,13 @@
 }
 
 body {
-  background-color: white;
-  font-family: Arial, sans-serif;
+  background: white;
+  background-image: url("img/bg.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 0px;
+  background-size: 80%;
+  font-family: Montserrat, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #515076;
@@ -18,16 +23,23 @@ body {
 
 .products-list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 1110px;
 }
 
 .product-card {
   background-color: #F7F7FA;
   width: 340px;
   padding: 25px;
-  margin: 45px;
+  border-radius: 25px;
 }
 
-.text-2nd {
+.product-label {
   text-transform: uppercase;
   font-size: 12px;
   line-height: 24px;
@@ -39,21 +51,14 @@ body {
   line-height: 27px;
 }
 
-.compound {
+.product-compound {
   padding-left: 15px;
 }
 
-.price-block {
+.product-price-block {
   padding-top: 25px;
-}
-
-.price-block b {
   font-size: 20px;
   line-height: 24px;
-}
-
-.price-block span {
-  font-size: 20px;
-  line-height: 24px;
-  padding-left: 150px; /*временно - пометка для себя*/
+  display: flex;
+  justify-content: space-between;
 }
