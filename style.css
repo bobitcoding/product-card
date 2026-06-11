@@ -15,7 +15,7 @@ body {
   color: #515076;
 } 
 
-.title {
+h1 {
   font-size: 70px;
   line-height: 78px;
   text-align: center;
@@ -36,6 +36,7 @@ body {
   background-color: #F7F7FA;
   width: 340px;
   padding: 25px;
+  box-shadow: 2px 2px 10px #5150761A;
   border-radius: 25px;
 }
 
