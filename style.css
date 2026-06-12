@@ -3,14 +3,19 @@
 }
 
 body {
-  background-color: white;
-  font-family: Arial, sans-serif;
+  background: white;
+  background-image: url("img/bg.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 0px;
+  background-size: 80%;
+  font-family: Montserrat, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #515076;
 } 
 
-.h1-title {
+h1 {
   font-size: 70px;
   line-height: 78px;
   text-align: center;
@@ -18,16 +23,24 @@ body {
 
 .products-list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 1110px;
 }
 
 .product-card {
   background-color: #F7F7FA;
   width: 340px;
   padding: 25px;
-  margin: 45px;
+  box-shadow: 2px 2px 10px #5150761A;
+  border-radius: 25px;
 }
 
-.text-2nd {
+.product-label {
   text-transform: uppercase;
   font-size: 12px;
   line-height: 24px;
@@ -36,26 +49,17 @@ body {
 
 .product-name {
   font-size: 20px;
-  font-weight: 700;
   line-height: 27px;
 }
 
-.compound {
+.product-compound {
   padding-left: 15px;
 }
 
-.class-for-div-price {
+.product-price-block {
   padding-top: 25px;
-}
-
-.price-txt {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-}
-
-.price-value {
   font-size: 20px;
   line-height: 24px;
-  padding-left: 150px; /*временно - пометка для себя*/
+  display: flex;
+  justify-content: space-between;
 }
